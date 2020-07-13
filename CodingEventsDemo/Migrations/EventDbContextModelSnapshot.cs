@@ -50,7 +50,7 @@ namespace CodingEventsDemo.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("EventCategories");
                 });
 #pragma warning restore 612, 618
         }
